@@ -37,4 +37,10 @@ spec:
         duration: 5s
         factor: 2
         maxDuration: 1m
+  ignoreDifferences:
+  - group: ""
+    jsonPointers:
+    - /secrets
+    kind: ServiceAccount
+    name: external-dns-sa
 {{- end -}}
