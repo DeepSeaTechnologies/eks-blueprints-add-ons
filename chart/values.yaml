@@ -103,6 +103,7 @@ externalDns:
   createNamespace: true
   serviceAccountName:
   zoneIdFilter:
+  zoneType:  
 
 # External Secrets Operator
 externalSecrets:
